@@ -8,4 +8,4 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = 'MuzeSick'
+rootProject.name = 'Muzic'

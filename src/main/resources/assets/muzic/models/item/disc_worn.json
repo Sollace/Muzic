@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "muzic:item/muzic_disc_body_worn",
+        "layer1": "muzic:item/muzic_disc_center_worn"
+    }
+}

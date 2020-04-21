@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "minVersion": "0.7",
+    "package": "com.sollace.muzic.mixin",
+    "refmap": "muzic.mixin.refmap.json",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+    	"MixinJukeboxBlock",
+    	"MixinWorldRenderer"
+    ]
+}

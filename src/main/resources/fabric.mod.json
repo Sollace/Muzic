@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "muzesick",
+  "id": "muzic",
   "version": "${version}",
-  "name": "Muze Sick",
+  "name": "Muzic Mod",
   "description": "Records for days",
   "authors": [
     "Sollace"
@@ -10,21 +10,22 @@
   "contact": {
   },
   "license": "MIT",
-  "icon": "muzesick_logo.png",
-  "environment": "client",
+  "icon": "muzic_logo.png",
   "entrypoints": {
-    "client": [
-      "com.sollace.muzesick.Main"
+  	"main": [
+      "com.sollace.muzic.Main"
+    ],
+  	"client": [
+      "com.sollace.muzic.Client"
     ]
   },
   "mixins": [
-    "muzesick.mixin.json"
+    "muzic.mixin.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0",
     "fabric-api-base": ">=0.1.0",
     "fabric-events-lifecycle-v0": ">=0.1.0",
-    "fabric-resource-loader-v0": ">=0.1.0",
-    "kirin": "*"
+    "fabric-resource-loader-v0": ">=0.1.0"
   }
 }

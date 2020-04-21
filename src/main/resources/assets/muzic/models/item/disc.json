@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "muzic:item/muzic_disc_body_normal",
+        "layer1": "muzic:item/muzic_disc_center_normal"
+    },
+    "overrides": [
+    	{ "predicate": { "pattern": 0 }, "model": "muzic:item/disc" },
+    	{ "predicate": { "pattern": 1 }, "model": "muzic:item/disc_worn" },
+    	{ "predicate": { "pattern": 2 }, "model": "muzic:item/disc_torn" },
+    	{ "predicate": { "pattern": 3 }, "model": "muzic:item/disc_stripes" },
+    	{ "predicate": { "pattern": 4 }, "model": "muzic:item/disc_dots" },
+    	{ "predicate": { "pattern": 5 }, "model": "muzic:item/disc_diamonds" },
+    	{ "predicate": { "pattern": 6 }, "model": "muzic:item/disc_creepers" }
+    ]
+}
